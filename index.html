@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RagnaMarket bRO Thor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>RagnaMarket bRO Thor</h1>
+        <nav>
+            <a href="#about">Sobre a Loja</a>
+            <a href="#products">Produtos</a>
+            <a href="#cart"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-image">
+            <img src="https://browiki.org/images/9/92/Arte_Ferreiros.png" alt="Ferreiros Ragnarok">
+        </div>
+        <div class="about-text">
+            <h2>Sobre a Loja</h2>
+            <p>Aqui você poderá comprar os melhores equipamentos disponíveis no servidor bRO THOR! Melhores preços de Prontera!</p>
+        </div>
+    </section>
+    <h2 class="section-title"> Nossos Produtos</h2>
+    <section id="products">
+        <div class="product">
+            <img src="https://static.ragnaplace.com/bro/card/4128.png" alt="Carta Besouro Ladrão Dourado">
+            <h3>Carta Besouro Ladrão Dourado</h3>
+            <p>
+                Torna o usuário imune a todas as magias, inclusive as não ofensivas.
+                Aumenta em 100% o consumo de SP no uso de habilidades.
+            </p>
+            <button class="button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product">
+            <img src="https://static.divine-pride.net/images/items/cards/4678.png" alt="Carta Arcana Kathryne">
+            <h3>Carta Arcana Kathryne</h3>
+            <p>
+                Arcanos e evoluções:
+                DEFM +80.
+                Dano mágico +15%.
+                Refino +10 ou mais:
+                Todos os atributos +10.
+                Nv. base 175 ou mais:
+                Todos os atributos +10 adicional.
+                Conjunto
+                [Carta Alma de Kathryne]
+                Ao realizar ataques mágicos:
+                3% de chance de se transformar em Kathryne Keyron por 6 segundos.
+                Durante a transformação:
+                ATQM +100
+            </p>
+            <button class="button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product">
+            <img src="https://static.divine-pride.net/images/items/cards/27363.png" alt="Carta Lorde das Trevas">
+            <h3>Carta Lorde das Trevas</h3>
+            <p>
+                Velocidade de ataque +1.
+                Conjunto
+                [Carta Senhor das Trevas]
+                Dano de [Chuva de Meteoros] +15%.
+                Dano mágico de de propriedade Fogo +15%
+            </p>
+            <button class="button">Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product">
+            <img src="https://static.divine-pride.net/images/items/cards/27362.png" alt="Carta Aranha Rainha">
+            <h3>Carta Aranha Rainha</h3>
+            <p>
+                Resistência a todas as propriedades -30%.
+                Dano mágico de propriedade Água e Terra +100%
+            </p>
+            <button class="button">Adicionar ao Carrinho</button>
+        </div>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-popup" id="close-popup">&times;</span>
+                <h2>Produto Adicionado ao Carrinho</h2>
+                <p>O produto foi adicionado com sucesso ao seu carrinho.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 RagnaMarket bRO Thor - Todos os direitos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
